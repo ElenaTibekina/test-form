@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Input from './Input';
+import CurrencyList from './CurrencyList';
 
 export default class Form extends Component {
     render() {
@@ -13,10 +14,10 @@ export default class Form extends Component {
                             <div className="change-input--line"></div>
                             <div className="change-input--arrow">
                                 <svg width="12" height="6" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M.343 0h11.314L6 5.657" fill-rule="evenodd"></path>
+                                    <path d="M.343 0h11.314L6 5.657" fillRule="evenodd"></path>
                                 </svg>
                             </div>
-                            <label class="change-input--currency">
+                            <label className="change-input--currency">
                                 BTC
                             </label>
                         </div> 
@@ -29,10 +30,10 @@ export default class Form extends Component {
                             <div className="change-input--line"></div>
                             <div className="change-input--arrow">
                                 <svg width="12" height="6" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M.343 0h11.314L6 5.657" fill-rule="evenodd"></path>
+                                    <path d="M.343 0h11.314L6 5.657" fillRule="evenodd"></path>
                                 </svg>
                             </div>
-                            <label class="change-input--currency">
+                            <label className="change-input--currency">
                                 BTC
                             </label>
                         </div> 
